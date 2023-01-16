@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .footer-h3 h3 {
+        @apply uppercase text-gray-500 font-bold text-xl tracking-widest mb-5
+    }
+    .footer-ul-li li{
+        @apply mb-5
+    } 
+};
